@@ -1,0 +1,50 @@
+
+
+.btn.btn-danger {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+.cart-button {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.content-wrapper h2 {
+  margin-top: 30px;
+
+}
+.btn.btn-primary {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+
+.html, .body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid, .row, .sidebar, .main {
+  height: 100%;
+}
+
+.sidebar {
+  position: fixed;
+}
+
+.main {
+  overflow-y: auto;
+}
+.table-responsive {
+  max-height: calc(100vh - 56px); /* Sesuaikan dengan tinggi navbar jika ada */
+  overflow-y: auto;
+}
+
+

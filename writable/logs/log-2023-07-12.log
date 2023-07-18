@@ -1,0 +1,15 @@
+INFO - 2023-07-12 03:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-12 04:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-12 04:17:27 --> Undefined variable $menuSales
+in APPPATH\Views\admin_navbar.php on line 50.
+ 1 APPPATH\Views\admin_navbar.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menuSales', 'C:\\xampp\\htdocs\\MyOrder\\app\\Views\\admin_navbar.php', 50)
+ 2 APPPATH\Views\admin_orders.php(11): include('C:\\xampp\\htdocs\\MyOrder\\app\\Views\\admin_navbar.php')
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\MyOrder\\app\\Views\\admin_orders.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin_orders', [], true)
+ 6 APPPATH\Controllers\AdminController.php(188): view('admin_orders', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AdminController->orders()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\MyOrder\\public\\index.php')
